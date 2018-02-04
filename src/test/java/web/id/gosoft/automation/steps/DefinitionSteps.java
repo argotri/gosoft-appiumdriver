@@ -18,7 +18,7 @@ public class DefinitionSteps {
     }
     @When("user type '$productName' in bukalapak apps")
     public void whenUserTypeTelevisiInBukalapakApps(String productName){
-
+        endUserSteps.searchBarang(productName);
     }
 
     @Then("i got list of '$productName' in search result")

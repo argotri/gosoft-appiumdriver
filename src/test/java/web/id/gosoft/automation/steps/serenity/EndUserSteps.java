@@ -1,6 +1,7 @@
 package web.id.gosoft.automation.steps.serenity;
 
 import net.thucydides.core.annotations.Step;
+import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.steps.ScenarioSteps;
 import web.id.gosoft.automation.pages.BukalapakApps;
 
@@ -14,6 +15,10 @@ public class EndUserSteps extends ScenarioSteps{
     @Step
     public void openApps(){
         bukalapakApps.allowApps();
+    }
+    @Step
+    public void searchBarang(String text){
+        bukalapakApps.search(text);
     }
 
 }
