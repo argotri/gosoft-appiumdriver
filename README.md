@@ -9,7 +9,7 @@ silahkan ditambahkan di serenity.properties anda
 ----------
 #Appears at the top of the reports
 
-serenity.project.name = Bukalapak emang cincay , Harga santai kagak lebbay
+serenity.project.name = Bukalapak Automation Project
 
 ####### Android CAPS ######
 
